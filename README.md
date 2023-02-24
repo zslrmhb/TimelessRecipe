@@ -18,7 +18,7 @@ by Hongbin Miao
 
 ### Univariate Analysis
 
-<iframe src="TimelessRecipe/assets/mins_dist.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="assets/mins_dist.html" width=800 height=600 frameBorder=0></iframe>
 
 ### Bivariate Analysis
 
