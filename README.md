@@ -9,6 +9,7 @@ by Hongbin Miao
 > Introduction: 
 
 > Question: Does recipe with 5-star rating tend to be more difficult to make than recipe with 1-star rating? (In terms of minutes, n_steps and n_ingredients)
+
 ---
 
 ## Cleaning and EDA
@@ -20,7 +21,11 @@ by Hongbin Miao
 
 <iframe src="assets/mins_dist.html" width=800 height=600 frameBorder=0></iframe>
 
+
+
 ### Bivariate Analysis
+
+<iframe src="assets/nsteps_mins.html" width=800 height=600 frameBorder=0></iframe>
 
 ### Interesting Aggregates
 
