@@ -6,9 +6,13 @@ by Hongbin Miao
 
 ## Introduction
 
-> Introduction: 
+> Introduction: I enjoy cooking and think it is a rewarding process. So, I would like to explore and test out different recipes in these dataset. In particular, I want to see what make a high-rating recipe distiguish from a low-rating one.
 
 > Question: Do recipes with 5-star rating tend to be more difficult to make than recipes with 1-star rating? (In terms of minutes, n_steps and n_ingredients)
+
+> Dataset Info:
+    >> 83781 rows, 13 columns
+    >> Columns of interests: *name*, *minutes*, *n_steps*, *steps*, *n_ingredients*, *ingredients*, *avg_rating*
 
 ---
 
