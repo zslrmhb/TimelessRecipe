@@ -92,6 +92,7 @@ by Hongbin Miao
 
 > significance level: 5%
 >Test Statistic: Absolute difference in group mean
+
 ---
 
 ## Hypothesis Testing
@@ -102,7 +103,7 @@ by Hongbin Miao
 
 > **Alternative Hypothesis**: Recipe with rank-1 rating generally take less time to make than recipe with rank-5 rating.
 
-> **Test Statistic**: Difference in average time (minutes) between recipes with rank-5 rating and those of rank-1 rating.
+> **Test Statistic**: Unsigned Difference in average time (minutes) between recipes with rank-5 rating and those of rank-1 rating.
 
 > **significance level**: 5%
 
