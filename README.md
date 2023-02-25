@@ -74,8 +74,9 @@ by Hongbin Miao
 > The **review** column will be **NMAR** since the user might not want to review the recipe. However, we can perform permutation test to see if the **review** column depends on **rating**, since lower rating will more likely have user-review, and that could make the **review** column **MAR**.
 
 ### Missingness Dependency
+<iframe src="assets/not_missing_des.html" width=800 height=600 frameBorder=0></iframe>
 
-
+<iframe src="assets/missing_des.html" width=800 height=600 frameBorder=0></iframe>
 
 ---
 
@@ -87,7 +88,7 @@ by Hongbin Miao
 
 > **Alternative Hypothesis**: Recipe with rank-1 rating generally take less time to make than recipe with rank-5 rating.
 
-> **Test Statistic**: Different in average time (minutes) between recipes with rank-5 rating and those of rank-1 rating.
+> **Test Statistic**: Difference in average time (minutes) between recipes with rank-5 rating and those of rank-1 rating.
 
 > **significance level**: 5%
 
