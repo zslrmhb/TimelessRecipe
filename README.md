@@ -8,7 +8,7 @@ by Hongbin Miao
 
 > Introduction: 
 
-> Question: Does recipe with 5-star rating tend to be more difficult to make than recipe with 1-star rating? (In terms of minutes, n_steps and n_ingredients)
+> Question: Do recipes with 5-star rating tend to be more difficult to make than recipes with 1-star rating? (In terms of minutes, n_steps and n_ingredients)
 
 ---
 
@@ -78,6 +78,16 @@ by Hongbin Miao
 
 <iframe src="assets/missing_des.html" width=800 height=600 frameBorder=0></iframe>
 
+> I want to see the missingess dependency of *description* to *n_ingredients*, *avg_rating* and *minutes*.
+> Through permutation test, I find out that the missingness of *description* depends on *n_ingredients* and do not depend on *avg_rating* and *minutes*.
+
+> p-value: 
+>> n_ingredients: 0.00
+>> avg_rating: 0.08
+>> minutes: 0.65
+
+> significance level: 5%
+>Test Statistic: Absolute difference in group mean
 ---
 
 ## Hypothesis Testing
@@ -92,6 +102,6 @@ by Hongbin Miao
 
 > **significance level**: 5%
 
-> **Resulting p-value**: 0.468
+> **Resulting p-value**: 0.51
 
 > **Conclusion**: Failed to reject the null hypothesis
